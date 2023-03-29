@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33402.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesAreaFinder", "src\ShapesAreaFinder\ShapesAreaFinder.csproj", "{2F4EB987-1A45-4CCB-974C-119858964549}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{693BC4EF-36C1-47BD-B3A4-C3B467F53DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesAreaFinder.Tests", "tests\ShapesAreaFinder.Tests\ShapesAreaFinder.Tests.csproj", "{F38DCED0-5E94-4CEE-A046-5DDCF81BD732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C258176-6AD6-40AA-B745-7DA07E9ABD9A}"
+	ProjectSection(SolutionItems) = preProject
+		Task2.sql = Task2.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesAreaFinder.Console", "tests\ShapesAreaFinder.Console\ShapesAreaFinder.Console.csproj", "{FE302120-BC43-4AA1-AF8B-90803B0A9104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F4EB987-1A45-4CCB-974C-119858964549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4EB987-1A45-4CCB-974C-119858964549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4EB987-1A45-4CCB-974C-119858964549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4EB987-1A45-4CCB-974C-119858964549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F38DCED0-5E94-4CEE-A046-5DDCF81BD732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38DCED0-5E94-4CEE-A046-5DDCF81BD732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38DCED0-5E94-4CEE-A046-5DDCF81BD732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38DCED0-5E94-4CEE-A046-5DDCF81BD732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE302120-BC43-4AA1-AF8B-90803B0A9104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE302120-BC43-4AA1-AF8B-90803B0A9104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE302120-BC43-4AA1-AF8B-90803B0A9104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE302120-BC43-4AA1-AF8B-90803B0A9104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F38DCED0-5E94-4CEE-A046-5DDCF81BD732} = {693BC4EF-36C1-47BD-B3A4-C3B467F53DB2}
+		{FE302120-BC43-4AA1-AF8B-90803B0A9104} = {693BC4EF-36C1-47BD-B3A4-C3B467F53DB2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E327AAC1-20E8-4D77-9CC6-232A03DE9715}
+	EndGlobalSection
+EndGlobal
